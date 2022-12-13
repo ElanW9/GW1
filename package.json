@@ -1,0 +1,15 @@
+{
+  "name": "gw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
