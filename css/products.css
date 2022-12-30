@@ -2,7 +2,6 @@
 body {
   background-color: rgb(254, 243, 226);
   background-image: url(/img/VG_GW_BG.jpg);
-  overflow: hidden;
 }
 @font-face {
   font-family: title;
@@ -96,4 +95,36 @@ header h1::after {
   #hamnav input:checked ~ #hamitems {
     display: block;
   }
+}
+
+/* grid css */
+
+main {
+  padding: 100px;
+}
+
+.main_title {
+  padding-bottom: 20px;
+  font-family: title;
+  font-size: 75px;
+  font-weight: bolder;
+  color: #4254b3;
+}
+
+.parent {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: (5, max-content);
+  grid-gap: 20px;
+}
+
+.parent img {
+  width: 100%;
+}
+.parent div {
+  border: 2px solid #f5e69b;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px #9d956440;
+  padding: 10px;
 }
