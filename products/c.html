@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/products.css" />
+    <script src="filter.js" type="module" defer></script>
 
-    <title>Document</title>
+    <title>Products</title>
   </head>
   <nav id="hamnav">
     <!-- (B) THE HAMBURGER -->
@@ -29,116 +30,202 @@
       <div class="main_title">
         <h3>Products</h3>
       </div>
-      <div class="parent">
-        <div class="div1">
-          <img src="img_prod/1_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div2">
-          <img src="img_prod/2_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div3">
-          <img src="img_prod/3_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div4">
-          <img src="img_prod/4_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div5">
-          <img src="img_prod/5_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div6">
-          <img src="img_prod/6_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div7">
-          <img src="img_prod/7_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div8">
-          <img src="img_prod/8_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div9">
-          <img src="img_prod/9_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
-        </div>
-        <div class="div10">
-          <img src="img_prod/10_prod_VG.png" alt="" />
-          <h3>Soup</h3>
-          <h5>€45,99</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            dolor iure ipsam velit eligendi mollitia fugit, magni animi aut
-            placeat vel porro alias culpa dignissimos labore perspiciatis
-            tempore temporibus? Eos.
-          </p>
+      <div class="container">
+        <ul>
+          <li class="ALL">All</li>
+          <li class="cat-1">Portret</li>
+          <li class="cat-2">Natuur</li>
+          <li class="cat-3">Object</li>
+          <li class="cat-4">Locatie</li>
+        </ul>
+        <div class="parent">
+          <div class="ALL cat-3">
+            <img src="img_prod/1_prod_VG.png" alt="" />
+            <h3>Soup</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-4">
+            <img src="img_prod/2_prod_VG.png" alt="" />
+            <h3>Paris</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-2">
+            <img src="img_prod/3_prod_VG.png" alt="" />
+            <h3>Field</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-2">
+            <img src="img_prod/4_prod_VG.png" alt="" />
+            <h3>Night</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-2 cat-3">
+            <img src="img_prod/5_prod_VG.png" alt="" />
+            <h3>Vase with flowers</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-2 cat-3">
+            <img src="img_prod/6_prod_VG.png" alt="" />
+            <h3>Flower Vase</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-1">
+            <img src="img_prod/7_prod_VG.png" alt="" />
+            <h3>Van Gogh</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-1">
+            <img src="img_prod/8_prod_VG.png" alt="" />
+            <h3>The ear of Van Gogh</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-4">
+            <img src="img_prod/9_prod_VG.png" alt="" />
+            <h3>Harbor</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-4">
+            <img src="img_prod/10_prod_VG.png" alt="" />
+            <h3>Saint-Tropez</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-3">
+            <img src="img_prod/11_prod_VG.png" alt="" />
+            <h3>Motorcycle</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-1">
+            <img src="img_prod/12_prod_VG.png" alt="" />
+            <h3>Cowboy</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-3">
+            <img src="img_prod/13_prod_VG.png" alt="" />
+            <h3>Balenciaga</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-1">
+            <img src="img_prod/14_prod_VG.png" alt="" />
+            <h3>The Grinch</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-2">
+            <img src="img_prod/15_prod_VG.png" alt="" />
+            <h3>Zebra</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-2 cat-4">
+            <img src="img_prod/16_prod_VG.png" alt="" />
+            <h3>Mountain</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
+          <div class="ALL cat-4">
+            <img src="img_prod/17_prod_VG.png" alt="" />
+            <h3>Tokyo</h3>
+            <h5>€45,99</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor iure ipsam velit eligendi mollitia fugit, magni
+              animi aut placeat vel porro alias culpa dignissimos labore
+              perspiciatis tempore temporibus? Eos.
+            </p>
+          </div>
         </div>
       </div>
     </main>
