@@ -9,12 +9,12 @@ rightBtn.onclick = function () {
   pos++;
   animate();
   leftBtn.classList.remove("hidden");
-  if (pos === 5) {
+  if (pos === 3) {
     rightBtn.classList.add("hidden");
   }
 };
 function animate() {
-  slider.style.marginLeft = -800 * pos + "px";
+  slider.style.marginLeft = -600 * pos + "px";
 }
 leftBtn.onclick = function () {
   pos--;
