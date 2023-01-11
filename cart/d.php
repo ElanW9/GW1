@@ -40,6 +40,32 @@ if (!empty($_POST['mail'])) {
   </div>
 </nav>
 
-<body></body>
+<body>
+  <div class="container">
+    <article>
+      <h1>Log In</h1>
+      <?php
+      if (count($errors) > 0) {
+        echo "<div class=\"alert alert-danger\" role=\"alert\"><ul>";
+        foreach ($errors as $error) {
+          print "<li>$error</li>";
+        }
+        echo "</ul></div>";
+      }
+      ?>
+      <form method="post" action="index.php">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Gebruikersnaam</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mail" value="<?php echo (isset($mail) ? $mail : ''); ?>">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Wachtwoord</label>
+          <input type="text" class="form-control" id="exampleInputName" name="name" value="<?php echo (isset($name) ? $name : ''); ?>">
+        </div>
+        <button type="submit" class="btn btn-primary">Log in</button>
+      </form>
+    </article>
+  </div>
+</body>
 
 </html>
