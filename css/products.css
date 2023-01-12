@@ -129,6 +129,15 @@ main {
   padding: 10px;
 }
 
+.parent div h3 {
+  font-family: tekst;
+}
+
+.parent div p {
+  padding-top: 5px;
+  font-family: tekst;
+}
+
 /* Filter producten */
 .bc {
   background-color: #4254b3;
