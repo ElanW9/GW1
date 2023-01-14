@@ -268,3 +268,13 @@ main {
     height: auto;
   }
 }
+
+/* Footer */
+footer {
+  background-color: #56a1a5;
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  color: rgb(254, 243, 226);
+  padding: 20px;
+}
