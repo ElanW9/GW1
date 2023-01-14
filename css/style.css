@@ -2,7 +2,6 @@
 body {
   background-color: rgb(254, 243, 226);
   background-image: url(/img/VG_GW_BG.jpg);
-  overflow: hidden;
 }
 @font-face {
   font-family: title;
@@ -37,6 +36,9 @@ header h1::after {
   position: absolute;
   bottom: -40px;
   justify-content: center;
+}
+header {
+  padding-bottom: 100px;
 }
 /* [ON BIG SCREEN] */
 /* (A) WRAPPER */
@@ -96,4 +98,50 @@ header h1::after {
   #hamnav input:checked ~ #hamitems {
     display: block;
   }
+}
+
+/* Gallerij */
+main {
+  padding: 60px;
+}
+.parent {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: (5, max-content);
+  grid-gap: 5px;
+  padding-bottom: 20px;
+}
+
+.parent img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* .parent div {
+  border: 2px solid #f5e69b;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px #9d956440;
+  padding: 10px;
+} */
+
+main section {
+  font-family: tekst;
+  font-size: 20px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(254, 243, 226);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #9d956440;
+  padding: 10px;
+  background-color: rgb(254, 243, 226);
+}
+
+/* footer */
+footer {
+  background-color: #56a1a5;
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  color: rgb(254, 243, 226);
+  padding: 20px;
 }
