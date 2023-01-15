@@ -138,6 +138,12 @@ main {
   font-family: tekst;
 }
 
+.parent div:hover {
+  background-color: #f5e69b;
+  color: #56a1a5;
+  cursor: pointer;
+}
+
 /* Filter producten */
 .bc {
   background-color: #4254b3;

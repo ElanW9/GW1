@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/login.css" />
-    <title>Login</title>
+    <link rel="stylesheet" href="../css/cart.css" />
+    <script src="cart.js" type="module" defer></script>
+    <title>Cart</title>
   </head>
   <nav id="hamnav">
     <!-- (B) THE HAMBURGER -->
@@ -17,27 +18,27 @@
       <a href="/index.html">HOME</a>
       <a href="/about/a.html">ABOUT</a>
       <a href="/products/c.html">PRODUCTS</a>
-      <a href="../cart/login.html"
+      <a href="../cart/cart.html"
         ><img class="cart" src="/img/cart-shopping-solid-yellow.png" alt=""
       /></a>
     </div>
   </nav>
-
   <body>
     <main>
       <div class="main_title">
-        <h1>Log In</h1>
+        <h1>Cart</h1>
       </div>
-      <form>
-        <label for="fname">Name</label>
-        <input type="text" id="fname" name="fname" />
-        <label for="Password">Password</label>
-        <input type="text" id="Password" name="Password" />
-      </form>
-      <button class="button"><a href="../cart/cart.html"> Login</a></button>
+      <div class="container">
+        <div id="newtask">
+          <input type="text" placeholder="Add Products" />
+          <button id="push">Add</button>
+        </div>
+        <div id="tasks"></div>
+      </div>
     </main>
+    <section>
+      <h3>Go find products</h3>
+      <button><a href="../products/c.html">Shop</a></button>
+    </section>
   </body>
-  <footer>
-    <p>Copyright © 2023 Gaëlle Elias & Elan Wittevrongel</p>
-  </footer>
 </html>
